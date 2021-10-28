@@ -1,10 +1,8 @@
 package ro.sci.temasapt6.libraryCatalog.book;
 
-import ro.sci.temasapt6.libraryCatalog.util.Generator;
-
 import static ro.sci.temasapt6.libraryCatalog.book.LibraryUtil.albumList;
 
-public class Album //extends Book
+public class Student //extends Book
 {
     private long bookId;
     private String name;
@@ -12,7 +10,7 @@ public class Album //extends Book
     private int numberOfPages;
     private PaperQuality paperQuality;
 
-    public Album(String name, String author, int numberOfPages, PaperQuality paperQuality) {
+    public Student(String name, String author, int numberOfPages, PaperQuality paperQuality) {
         this.bookId = bookId;
         this.name = name;
         this.author = author;
@@ -21,7 +19,7 @@ public class Album //extends Book
     }
 
         public static void addAlbum(String name, String author, int numberOfPages, PaperQuality paperQuality) {
-        Album newNovel = new Album(name, author, numberOfPages, paperQuality);
+        Student newNovel = new Student(name, author, numberOfPages, paperQuality);
         albumList.add(newNovel);
     }
 

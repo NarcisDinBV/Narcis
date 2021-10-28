@@ -24,9 +24,9 @@ public class Main {
         Novel n5 = new Novel( "Baltagul", "Mihail Sadoveanu",115, NovelType.DRAMA);
         Novel n6 = new Novel( "Fratii Jderi", "Mihail Sadoveanu",115, NovelType.HISTORICAL);
 
-        Album a1 = new Album("Iconic Rock Album","Smith", 84, PaperQuality.MATTE);
-        Album a2 = new Album("DiscoverRomania","G. Avanu", 84, PaperQuality.LUSTRE);
-        Album a3 = new Album("Portraits","G. Avanu", 84, PaperQuality.SILK);
+        Student a1 = new Student("Iconic Rock Album","Smith", 84, PaperQuality.MATTE);
+        Student a2 = new Student("DiscoverRomania","G. Avanu", 84, PaperQuality.LUSTRE);
+        Student a3 = new Student("Portraits","G. Avanu", 84, PaperQuality.SILK);
 
 
         TreeSet<Novel> NovelListByName = new TreeSet<>(novelComparatorByAuthorOrName);
@@ -36,10 +36,10 @@ public class Main {
             LibraryUtil.setNovelList(n);
         }
 
-        TreeSet<Album> AlbumListByName = new TreeSet<>(albumComparatorByAuthorOrName);
+        TreeSet<Student> AlbumListByName = new TreeSet<>(albumComparatorByAuthorOrName);
         AlbumListByName.addAll(Arrays.asList(a1, a2, a3));
 
-        for(Album a : AlbumListByName){
+        for(Student a : AlbumListByName){
             LibraryUtil.setAlbumList(a);
         }
 

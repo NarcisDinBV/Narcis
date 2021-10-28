@@ -5,13 +5,13 @@ import java.util.List;
 
 public class LibraryUtil {
     static List<Novel> novelList = new ArrayList<>();
-    static List<Album> albumList = new ArrayList<>();
+    static List<Student> albumList = new ArrayList<>();
 
     public static void setNovelList(Novel novel) {
         novelList.add(novel);
     }
 
-    public static void setAlbumList(Album album) {
+    public static void setAlbumList(Student album) {
         albumList.add(album);
     }
 
@@ -34,13 +34,13 @@ public class LibraryUtil {
 //---------------------------------------album--------------------------------------------
 
     public static void albumList() {
-        for (Album a : albumList) {
+        for (Student a : albumList) {
             System.out.println(a);
         }
     }
 
-    public static void removeAlbum(Album albumToBeRemoved) {
-        for (Album a : albumList) {
+    public static void removeAlbum(Student albumToBeRemoved) {
+        for (Student a : albumList) {
             if (a.getAuthor().equals(albumToBeRemoved.getAuthor()) && a.getName().equals(albumToBeRemoved.getName())) {
                 albumList.remove(albumToBeRemoved);
                 break;
