@@ -1,0 +1,12 @@
+Oct 31, 2021 12:57:19 PM ro.sci.temasapt7.MainSapt7 main
+SEVERE: Please insert your first Name!
+Oct 31, 2021 12:57:19 PM ro.sci.temasapt7.MainSapt7 main
+SEVERE: Please insert your last Name!
+Oct 31, 2021 12:57:19 PM ro.sci.temasapt7.MainSapt7 main
+SEVERE: Your date of birth should be between 1900 and 18 years ago!
+Oct 31, 2021 12:57:19 PM ro.sci.temasapt7.MainSapt7 main
+SEVERE: Please write your gender as: Male or Female!
+Oct 31, 2021 12:57:19 PM ro.sci.temasapt7.MainSapt7 main
+SEVERE: cnp should be exactly 13 digits long
+Oct 31, 2021 12:57:19 PM ro.sci.temasapt7.MainSapt7 main
+SEVERE: A student with this CNP (6050604080014) already exist in our data base. Please insert a new CNP
